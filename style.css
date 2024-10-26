@@ -1,0 +1,23 @@
+img {
+    width: 100px;
+    border-radius: 50px;
+    float:left;
+    margin: 20px;
+  }
+  .username {
+    font-weight: bold;
+    
+  }
+  img.class:image2 {    width:200px;
+    border-radius:100px;
+  }
+p.kuoka{
+  text-align: center;
+  background-color: aqua;
+  font-size: large;
+  text-decoration: double;
+}
+body{
+  background-color:rgb(42, 120, 165);
+}
+
