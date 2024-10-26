@@ -19,5 +19,69 @@ p.kuoka{
 }
 body{
   background-color:rgb(42, 120, 165);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
+
+.nav-items {
+  background-color: rgba(240, 248, 255, 0.596);
+  border-radius: 10px;
+  padding: 5px 0;
+  ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-around;
+    align-items: center;
+    li {
+      background-color: #fff4c2c2;
+      padding: 7px 10px;
+      border-radius: 12px;
+      color: rgba(0, 0, 0, 0.733);
+      font-weight: 500;
+
+    }
+
+  }
+}
+
+.body-section {
+  display: flex;
+  justify-content: space-around;
+  gap: 3rem;
+
+  .side-menu-1 {
+    width: 30vw;
+
+    ul {
+      display: flex;
+      height: 30vh;
+      flex-direction: column;
+      justify-content: space-between;
+      background-color: rgba(240, 248, 255, 0.596);
+      border-radius: 10px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      padding-inline-start: 0 !Important;
+
+      li {
+        list-style: none;
+        font-weight: 600;
+        color: rgba(0, 0, 0, 0.733);
+        align-self: flex-start;
+        padding: 5px 10px;
+        width: 87%;
+        cursor: pointer;
+
+
+      }
+      
+    } 
+  }
+  li:hover {
+    background-color: #fff4c2c2;
+
+  }
+
+
+}
+
 
