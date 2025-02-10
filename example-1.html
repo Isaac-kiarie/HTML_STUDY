@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This is a website used to give out a advertising of products"
+    />
+    <title>Learning HTML</title>
+    <link rel="stylesheet" href="style-1.css" />
+    <a href="https://www.w3schools.com/css/css_link.asp">w3schools</a>
+  </head>
+  <body>
+    <h3>ADVERTERSING WEBSITE</h3>
+    <nav class="nav-items">
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contacts</li>
+      </ul>
+    </nav>
+    <h4>ABOUT THE WEBSITE</h4>
+    <p class="about">
+      This website is used to help every user to be able to navigate through the
+      web to be able to get their desired product of interest
+    </p>
+    <p></p>
+    <ol>
+      <li>coffee</li>
+      <li>Maize</li>
+      <li>Tea</li>
+      <li>Greengrams</li>
+      <li>Mango</li>
+    </ol>
+    <table>
+      <caption>
+        School data
+      </caption>
+      <tr>
+        <th>Studet's Name</th>
+        <th>Name of School</th>
+        <th>Residence</th>
+        <th>Date</th>
+      </tr>
+      <tr>
+        <td>Isaac</td>
+        <td>Dr aggrey</td>
+        <td>Nakuru</td>
+        <td>30/10/2024</td>
+      </tr>
+      <tr>
+        <td>Paul</td>
+        <td>Maseno</td>
+        <td>Thika</td>
+        <td>30/10/2023</td>
+      </tr>
+    </table>
+    <table class="shopping">
+      <tr>
+        <th>Items</th>
+        <th>Brand</th>
+        <th>Price</th>
+      </tr>
+      <tr>
+        <td>Sweatshirt</td>
+        <td>Gucci</td>
+        <td>450$</td>
+      </tr>
+      <tr>
+        <td>Trouser</td>
+        <td>Vasachi</td>
+        <td>750$</td>
+      </tr>
+    </table>
+    <p id="demo">I love Coding</p>
+    <script>
+      function myfunction() {
+        document.getElementById("demo").style.fontsize = "25px";
+        document.getElementById("demo").style.color = "red";
+        document.getElementById("demo").style.backgroundcolor = "blue";
+      }
+    </script>
+    <button type="button" onclick="myfunction()">Click Me!</button>
+    <table>
+      <caption>
+        School data
+      </caption>
+      <tr>
+        <th>Studet's Name</th>
+        <th>Name of School</th>
+        <th>Residence</th>
+        <th>Date</th>
+      </tr>
+      <tr>
+        <td>Isaac</td>
+        <td>Dr aggrey</td>
+        <td>Nakuru</td>
+        <td>30/10/2024</td>
+      </tr>
+      <tr>
+        <td>Paul</td>
+        <td>Maseno</td>
+        <td>Thika</td>
+        <td>30/10/2023</td>
+      </tr>
+    </table>
+
+    <table class="one">
+      <tr>
+        <th>Name</th>
+        <th>Identity card</th>
+        <th>Place</th>
+        <th>Profession</th>
+      </tr>
+      <tr>
+        <td>John . N</td>
+        <td>123145</td>
+        <td>Thika</td>
+        <td>Salesperson</td>
+      </tr>
+      <tr>
+        <td>Mathius</td>
+        <td>687689</td>
+        <td>Nairobi</td>
+        <td>Doctor</td>
+      </tr>
+      <tr>
+        <td>Caro</td>
+        <td>549738</td>
+        <td>Makongeni</td>
+        <td>Banker</td>
+      </tr>
+      <tr>
+        <td>Winny</td>
+        <td>123098</td>
+        <td>Kiambu</td>
+        <td>Nurse</td>
+      </tr>
+      <tr>
+        <td>Dorcas</td>
+        <td>453678</td>
+        <td>Machakos</td>
+        <td>Pilot</td>
+      </tr>
+      <tr>
+        <td>Japhet</td>
+        <td>908134</td>
+        <td>Ruiru</td>
+        <td>Banker</td>
+      </tr>
+    </table>
+    <form >
+      <label for="fisrt name">First name</label><br>
+      <input type="text" id="fisrt name" name="first name"><br>
+      <label for="second name">Second name</label><br>
+      <input type="text" id="Second name"  name="Second name"><br />
+      <label for="cars">Choose a car:</label>
+    </form>
+      <select id="cars" name="cars">
+        <option value="Volvo">Volvo</option>
+        <option value="Mercedes">Mercedes</option>
+        <option value="Saab">Saab</option>
+        <option value="Audi">Audi</option><br/>
+      </select>
+        <textarea name="Messages" rows="10" cols="30">
+          I am Isaac Kiarie Chege a Software Engineer.
+        </textarea><br />
+        <form action="/action_page.php">
+          <fieldset>
+            <legend>Personalia;</legend>
+          <label for="fname">First Name</label><br />
+          <input type="text" id="fname" name="fname" value="Isaac"><br />
+          <label for="lname">Last Name</label><br />
+          <input type="text" id="lname" name="lname" value="Chege">
+          </fieldset>
+        </form><br />
+        <!--Input type password-->
+        <form>
+          <label for="username">Username:</label><br />
+          <input type="text" id="username" name="username"><br />
+          <label for="pwd">Password:</label><br />
+          <input type="password" id="pwd" name="pwd"><br />
+        </form>
+        <form action="/action_page.php"><br />
+          <label for="fname">Fisrt Name:</label><br />
+          <input type="text" id="fname" name="fname" value="John"><br />
+          <label for="Lname">Last Name:</label><br />
+          <input type="text" id="lname" name="lname" value="Njoroge"><br /><br />
+          <input type="submit" value="submit">
+        </form>
+        <form action="/action_page.php">
+          <label for="fname">First Name</label><br />
+          <input type="text" id="fname" name="fname" value="Winny"><br />
+          <label for="Lname">Last Name</label><br />
+          <input type="text" id="lname" name="lname" value="Chege"><br /><br />
+          <input type="submit" value="Submit">
+          <input type="reset>" value="Reset">
+        </form><br />
+        <form>
+          <label for="birthday">Birthday</label><br />
+          <input type="date" id="birthday" name="birthday">
+        </form>
+        <script src="script/main.js"></script>
+        <p id="demo1"></p>
+        <script>
+        document.getElementById("demo1").innerHTML = 5 + 6;
+        </script>
+        <script>
+          document.write(5 + 6);
+        </script>
+        <script>
+          alert(5 + 6);
+        </script>
+        <script>
+          window(5 + 6);
+        </script><br />
+        <button type="button" onclick="document.write(5 + 6)">try it!</button>
+        <p>click the button to print the current page.</p>
+        <button onclick="window.print()">Print this page</button>
+        <p id="try">Hi there my name is Isaac Kiarie Chege.</p>
+        <script>
+          document.getElementById("try").innerHTML = "Hi what'sup  man!";
+        </script>
+        <p id="demo4"></p>
+        <script>
+          document.getElementById("demo4").innerHTML = (5 + 6) * 10;
+        </script>
+        <p id="demomath"></p>
+        <script>
+          var x;
+          x = 5;
+          document.getElementById("demomath").innerHTML = x * 10;
+          document.getElementById("demomath").innerHTML = "John" + " " + "Doe";
+        </script>
+        <p id="variables">variables</p>
+        <script>
+          var x = 5;
+          var y = 6;
+          var z = x + y;
+          document.getElementById("variables").innerHTML = "The value of z: " + z;
+        </script>
+        <p id="car"></p>
+        <script>
+          let carName = "Volvo";
+          document.getElementById("car").innerHTML = carName;
+        </script>
+        <p id="demo"></p>
+        <script>
+          const vehicles = ["lamborghini", "Volvo", "Audi"];
+          vehicles[0] = "Mercedes-Benz";
+          vehicles.push("Chevrolet");
+          document.getElementById("demo").innerHTML = vehicles;
+        </script>
+        <p id="try"></p>
+        <script>
+          function padRow(){
+            return "Hello!";
+          };
+          document.getElementById("try").innerHTML = padRow;
+        </script>
+  </body>
+</html>

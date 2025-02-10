@@ -1,0 +1,83 @@
+h3{
+    text-align: center;
+    background-color: aqua;
+    font-weight: 100;
+    margin: 0 0 50px;
+}
+.nav-items{
+    background-color: rgba(255, 248, 240, 0.151);
+    font-size: medium;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    border-radius: 10px;
+    ul{
+        display: flex;
+        text-decoration: double;
+        background-color: aqua;
+        justify-content: space-around;
+        cursor: pointer;
+        border-radius: 5px;
+        li{
+            font-size: medium;
+            background-color: rgba(240, 248, 255, 0.801);
+            border-radius: 5px;
+        }
+
+    }
+    
+}
+H4{
+    background-color: brown;
+    font-weight: 100;
+    text-align:center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.p{
+    font-size: medium;
+    font-weight: 100;
+    text-decoration: dotted;
+
+}
+body{
+    background-color: aquamarine;
+}
+a:link{
+    color: blue;
+}
+a:visited{
+    color: rgb(255, 166, 0);
+}
+a:hover{
+    color: brown;
+}
+a:active{
+    color: blueviolet;
+}
+ol{
+    color: rgb(0, 0, 0);
+    li{
+        color: rgb(192, 113, 126);
+    }
+}
+.tables, th ,td {
+     border: 1px solid;
+     text-align: center;
+     table-layout: fixed;
+     caption-side: top;
+}
+.shopping{
+    width: 70%; 
+    th{
+      width: 20%;
+    }
+}
+
+.one{
+    text-align: center;
+    color: rgb(8, 13, 17);
+    width: 450px;
+    height: auto;
+    table-layout: fixed;
+    border: 1px solid;
+
+}
